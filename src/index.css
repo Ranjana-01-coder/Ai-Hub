@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Fix for text-size-adjust warning across browsers */
+html, :host {
+  -webkit-text-size-adjust: 100%; /* Safari, old iOS */
+  text-size-adjust: 100%;         /* modern browsers */
+}
